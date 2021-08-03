@@ -1,7 +1,7 @@
 import React from 'react';
 // import { GiTwinShell } from 'react-icons/gi';
 import './SelfCheck.css';
-import Component from './Form';
+import NameForm from './NameForm';
 
 function SelfCheck() {
   
@@ -18,10 +18,9 @@ function SelfCheck() {
             provide this self-screening assessment form to your supervisor/manager.</b>
         </p>
 
-      <Component/>
+      <NameForm/>
 
-      <p> <b> <u> Employee Temperature Assessment </u></b></p>
-      <p> I have been tested with a thermometer and my temperature is less than 100.4 degrees Fahrenheit (Check the applicable answer): </p>
+     
 
         
     </div>
