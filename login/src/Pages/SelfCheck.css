@@ -1,3 +1,9 @@
 .selfCheckTitle{
     text-align:center;
 }
+
+.selfCheckoutBody{
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+}
