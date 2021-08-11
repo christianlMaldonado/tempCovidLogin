@@ -23,6 +23,15 @@ class NameForm extends React.Component {
         
         <form className='formField' onSubmit={this.handleSubmit}>
            
+            <p className="selfCheckoutBody"> 
+              Pursuant to the Human Resources Emergency Response Manual Section 21 Temperature Testing
+              and Self-Screening Assessment for new Symptoms Associated with COVID-19, County employees
+              are <b>REQUIRED</b> to complete a self-screening assessment prior to entering any county facility
+              or worksite.<b> This form shall be completed by employees who elected not to accesss and complete
+              the online self-screening assessment options provided by the county. Once complete. please
+              provide this self-screening assessment form to your supervisor/manager.</b>
+            </p>
+
             <label>  Employee Name :  
             <input type="text" text={this.state.text} onChange={this.handleChange} />
             </label>
