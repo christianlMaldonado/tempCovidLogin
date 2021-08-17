@@ -5,7 +5,7 @@ import NameForm from "./NameForm";
 
 function SelfCheck() {
   return (
-    <div className="selfCheck">
+    <div>
       <NameForm />
     </div>
   );
