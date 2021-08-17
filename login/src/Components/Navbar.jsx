@@ -18,7 +18,7 @@ function Navbar() {
                     <Link to="#" className="menu-bars">
                         <FaIcons.FaBars onClick={showSidebar}/> 
                     </Link> 
-                    <p className="NavHeader"> Monterey County Temp Self Covid Check In </p>
+                    <p className="NavHeader"> Monterey County Contractor and TEMP Employee Self Covid Check In </p>
                 </div>
                 <nav className={sidebar ? 'nav-menu active' : 'nav-menu'}>
                 <ul className='nav-menu-items' onClick={showSidebar}>
