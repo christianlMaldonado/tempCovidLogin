@@ -19,19 +19,19 @@ function CountySite() {
 
       <br/>
 
-      <a  href="/" rel="noreferrer">
+      <a  href="https://www.governmentjobs.com/careers/montereycounty" rel="noreferrer">
       <b> Monterey County Career Opportunities </b>
       </a>
 
       <br/>
 
-      <a  href="/" rel="noreferrer">
+      <a  href="https://www.caljobs.ca.gov/vosnet/Default.aspx" rel="noreferrer">
       <b> Cal Jobs Emploment Opportunities </b>
       </a>
 
       <br/>
 
-      <a  href="/" rel="noreferrer">
+      <a  href="http://montereyco.maps.arcgis.com/apps/Shortlist/index.html?appid=d24344d65e7443889cf6cae29f95bd75" rel="noreferrer">
       <b> Special Events In Monterey County </b>
       </a>
       
