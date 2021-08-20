@@ -1,21 +1,21 @@
 import './App.css';
-import Navbar from "./Components/Navbar";
+import NavMenu from "./Components/NavMenu";
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from './Pages/Home';
 import SelfCheck from './Pages/SelfCheck';
-import CountySite from './Pages/CountySite';
+import CountySites from './Pages/CountySites';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <>
       <Router> 
-        <Navbar />
+        <NavMenu />
         <Switch> 
         
           <Route path='/' exact component={Home} />
           <Route path='/SelfCheck' component={SelfCheck} />
-          <Route path='/CountySite' component={CountySite} />
+          <Route path='/CountySites' component={CountySites} />
         </Switch>
       </Router>
       
