@@ -6,7 +6,7 @@ function CountySite() {
   return (
     <div className='countySiteBody'>
 
-      <h1> County Site </h1>
+      <h1> Monterey County Resources </h1>
 
       <Row xs={1} md={2} className="g-4">
 
@@ -17,7 +17,7 @@ function CountySite() {
               <Card.Text>
                 Quick Access to Monterey County Recources And COIVID-19 Information
               </Card.Text>
-              <Button href="https://www.co.monterey.ca.us/home" variant="primary">Click Here</Button>
+              <Button href="https://www.co.monterey.ca.us/home" variant="dark">Click Here</Button>
             </Card.Body>
           </Card>
         </Col> 
@@ -28,7 +28,7 @@ function CountySite() {
               <Card.Text>
                 See Emergenacy Shelters Currently Open In Monterey County
               </Card.Text>
-              <Button href="https://arcg.is/Hfefy" variant="primary">Click Here</Button>
+              <Button href="https://arcg.is/Hfefy" variant="dark">Click Here</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -40,7 +40,7 @@ function CountySite() {
               <Card.Text>
                 Find Local Job Opportunities In The Monterey County
               </Card.Text>
-              <Button href="https://www.governmentjobs.com/careers/montereycounty" variant="primary">Go somewhere</Button>
+              <Button href="https://www.governmentjobs.com/careers/montereycounty" variant="dark">Click Here</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -51,7 +51,7 @@ function CountySite() {
               <Card.Text>
                 Find Exciting Career Opportunities Across California
               </Card.Text>
-              <Button href="https://www.caljobs.ca.gov/vosnet/Default.aspx" variant="primary">Go somewhere</Button>
+              <Button href="https://www.caljobs.ca.gov/vosnet/Default.aspx" variant="dark">Click Here</Button>
             </Card.Body>
           </Card>
         </Col>
@@ -63,7 +63,7 @@ function CountySite() {
           <Card.Text>
             Follow This Link To See The Latest Events Happening In Montrey County
           </Card.Text>
-          <Button href="http://montereyco.maps.arcgis.com/apps/Shortlist/index.html?appid=d24344d65e7443889cf6cae29f95bd75" variant="primary">Go somewhere</Button>
+          <Button href="http://montereyco.maps.arcgis.com/apps/Shortlist/index.html?appid=d24344d65e7443889cf6cae29f95bd75" variant="dark">Click Here</Button>
         </Card.Body>
       </Card>
 
