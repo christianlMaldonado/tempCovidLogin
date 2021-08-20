@@ -1,5 +1,4 @@
-import React, { useState } from 'react';
-import { Link } from "react-router-dom";
+import React from 'react';
 import { Navbar, Container, Nav } from 'react-bootstrap';
 
 function NavMenu() {
@@ -8,7 +7,7 @@ function NavMenu() {
         <>
             <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <Navbar.Brand href="/Home">Monterey County Home</Navbar.Brand>
+                    <Navbar.Brand href="/">Monterey County Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
                         <Nav className="me-auto">
