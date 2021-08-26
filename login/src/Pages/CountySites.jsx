@@ -1,10 +1,12 @@
 import React from 'react';
 import { Row, Col, Card, Button } from 'react-bootstrap';
 import './CountySites.css';
+import Logo from '../Components/Images/Logo1.png';
 
 function CountySite() {
   return (
     <div className='countySiteBody'>
+      <img src={Logo} />
 
       <h1> Monterey County Resources </h1>
 
