@@ -1,5 +1,6 @@
 import React from "react";
 import "./NameForm.css";
+import Logo from '../Components/Images/Logo1.png';
 
 class NameForm extends React.Component {
   constructor(props) {
@@ -28,7 +29,9 @@ class NameForm extends React.Component {
   render() {
     return (
       <div>
+         
         <form className="formField" onSubmit={this.handleSubmit}>
+          <img src={Logo} />
           <h1 className="selfCheckTitle"> COUNTY OF MONTEREY </h1>
           <h1 className="selfCheckTitle">
             {" "}
