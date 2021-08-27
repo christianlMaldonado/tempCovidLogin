@@ -6,7 +6,7 @@ import Logo from '../Components/Images/Logo1.png';
 function CountySite() {
   return (
     <div className='countySiteBody'>
-      <img src={Logo} />
+      <img src={Logo} alt="Logo" />
 
       <h1> Monterey County Resources </h1>
 

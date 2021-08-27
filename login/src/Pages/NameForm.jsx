@@ -12,16 +12,16 @@ class NameForm extends React.Component {
     this.setState({
       name: e.target.text,
       email: e.target.email,
-      number: e.target.number,
+      number: e.target.text,
     });
   };
 
   handleSubmit = (e) => {
     alert(
       "Text was just submitted: " +
+        this.state.text +
         this.state.email +
-        this.state.email +
-        this.state.number
+        this.state.text
     );
     e.preventDefault();
   };
@@ -31,7 +31,7 @@ class NameForm extends React.Component {
       <div>
          
         <form className="formField" onSubmit={this.handleSubmit}>
-          <img src={Logo} />
+          <img src={Logo} alt="Logo" />
           <h1 className="selfCheckTitle"> COUNTY OF MONTEREY </h1>
           <h1 className="selfCheckTitle">
             {" "}
@@ -150,6 +150,14 @@ class NameForm extends React.Component {
               I am not Experiencing any of the listed symptoms
             </option>
           </select>
+          <label>
+          Is going:
+          <input
+            name="isGoing"
+            type="checkbox"
+            checked={this.state.isGoing}
+            onChange={this.handleInputChange} />
+        </label>
           <p>
             If you checked the box for any of the listed symptoms, complete the
             employee signature section below and contact your supervisor
@@ -176,8 +184,8 @@ class NameForm extends React.Component {
             {" "}
             Date :
             <input
-              type="number"
-              number={this.state.number}
+              type="text"
+              text={this.state.text}
               onChange={this.handleChange}
             />
           </label>
@@ -193,6 +201,8 @@ class NameForm extends React.Component {
           <br />
           <br />
           <input type="submit" value="Submit" />
+          {/* This is for File Submission
+          <input type="file" variant="dark" /> */}
         </form>
       </div>
     );
