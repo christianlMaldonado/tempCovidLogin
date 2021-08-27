@@ -5,7 +5,8 @@ import Home from './Pages/Home';
 import SelfCheck from './Pages/SelfCheck';
 import CountySites from './Pages/CountySites';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Form from './Pages/Test';
+import DigCard from './Pages/DigCard';
+import FooterPage from './Pages/Footer';
 
 function App() {
   return (
@@ -17,9 +18,10 @@ function App() {
           <Route path='/' exact component={Home} />
           <Route path='/SelfCheck' component={SelfCheck} />
           <Route path='/CountySites' component={CountySites} />
-          <Route path='/Test' component={Form} /> 
+          <Route path='/DigCard' component={DigCard} /> 
 
         </Switch>
+        <FooterPage />
       </Router>
       
     </>

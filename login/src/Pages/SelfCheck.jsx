@@ -1,11 +1,11 @@
 import React from "react";
 import "./SelfCheck.css";
-import NameForm from "./NameForm";
+import Form from "./NameForm";
 
 function SelfCheck() {
   return (
     <div>
-      <NameForm />
+      <Form />
     </div>
   );
 }
