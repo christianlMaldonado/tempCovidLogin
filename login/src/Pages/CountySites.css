@@ -1,7 +1,9 @@
 .countySiteBody {
   text-align: center;
-  padding: 50px;
-  margin: 50px;
+  padding: 10px;
+  margin: 10px;
+  justify-content: center;
+  word-break: none;
 }
 
 .special {

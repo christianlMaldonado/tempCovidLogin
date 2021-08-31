@@ -6,9 +6,9 @@ function NavMenu() {
 
     return (
         <>
-            <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+            <Navbar className="Navigation" collapseOnSelect expand="lg" bg="dark" variant="dark">
                 <Container>
-                    <img src={Logo} alt="countyLogo" style={{padding: 5}}/>
+                    <img src={Logo} alt="countyLogo" style={{padding: 5, margin: 5}}/>
                     <Navbar.Brand href="/">Monterey County Portal</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
