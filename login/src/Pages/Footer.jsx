@@ -1,59 +1,30 @@
 import React from "react";
-import { Nav } from 'react-bootstrap';
+import { Nav, Navbar, Container } from 'react-bootstrap';
 import './Footer.css'
+import Logo from '../Components/Images/Logo1.png'
 
 
 const Footer = () => {
-    return (
-        <div className="FooterLinks">
-            <Nav defaultActiveKey="/home" as="ul">
-                <Nav.Item as="li">
-                    <Nav.Link href="/home">Poral Home </Nav.Link>
-                    <Nav.Link href="/home">Ditgital Vaccine</Nav.Link>
-                    <Nav.Link href="/home">Active</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link eventKey="link-1">Digtial Vaccine</Nav.Link>
-                </Nav.Item>
-                <Nav.Item as="li">
-                    <Nav.Link eventKey="link-2">Resources</Nav.Link>
-                </Nav.Item>
-            </Nav>
+  return (
+    <div className="FooterLinks">
 
-<Nav className="justify-content-center" activeKey="/" variant="tabs">
-    <Nav.Item>
-      <Nav.Link href="/">Active</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1">Link</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2">Link</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="disabled" disabled>
-        Disabled
-      </Nav.Link>
-    </Nav.Item>
-  </Nav>
-  <p className="text-center mt-4 mb-4">Or right-aligned</p>
-  <Nav className="justify-content-end" activeKey="/home">
-    <Nav.Item>
-      <Nav.Link href="/home">Active</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-1">Link</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="link-2">Link</Nav.Link>
-    </Nav.Item>
-    <Nav.Item>
-      <Nav.Link eventKey="disabled" disabled>
-        Disabled
-      </Nav.Link>
-    </Nav.Item>
-  </Nav>
-        </div>
-    );
+      <Navbar bg="dark" variant="dark">
+        <Container>
+          <Nav fill justify className="me-auto">
+            <img
+              src={Logo}
+
+              alt="countyLogo"
+            />   
+            <Nav.Link href="/">Montery County Portal</Nav.Link>
+            <Nav.Link href="/DigCard">Digital Vaccine Card</Nav.Link>
+            <Nav.Link href="/selfcheck">Self Check In</Nav.Link>
+            <Nav.Link href="/countysites">Monterey County Recources</Nav.Link>
+          </Nav>
+        </Container>
+      </Navbar>
+      
+    </div>
+  );
 };
 export default Footer;
