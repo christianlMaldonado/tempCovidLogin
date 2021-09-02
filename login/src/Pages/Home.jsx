@@ -7,7 +7,6 @@ import slide2 from '../Components/Images/slide2.jpg';
 import slide3 from '../Components/Images/slide3.jpg';
 
 function Home() {
-  
   return (
     <div className="homeBody">
       <img src={Logo} alt="countyLogo" />

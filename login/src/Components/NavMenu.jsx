@@ -15,7 +15,7 @@ function NavMenu() {
                             height="50"
                             alt="countyLogo"
                              />    
-                        <h7> Monterey County Portal </h7> 
+                        Monterey County Portal 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
