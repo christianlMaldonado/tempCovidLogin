@@ -20,7 +20,7 @@ function NavMenu() {
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav justify className="me-auto">
-                                <Nav.Link href="/DigCard">Government Vaccine Link</Nav.Link>
+                                <Nav.Link href="/DigCard">Digital Vaccine Link</Nav.Link>
                                 <Nav.Link href="/SelfCheck">COVID-19 Self Check In </Nav.Link>
                                 <Nav.Link href="/CountySites">Monterey County Resources</Nav.Link>
                             </Nav>

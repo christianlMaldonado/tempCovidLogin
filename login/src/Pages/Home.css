@@ -19,3 +19,9 @@
 .CarouselColor {
   color: grey;
 }
+
+.carousel {
+  max-width:900px;
+  max-height:500px;
+  margin: auto;
+}

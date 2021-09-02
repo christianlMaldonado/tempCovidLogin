@@ -1,26 +1,28 @@
 import React from "react";
 import { Nav, Navbar, Container } from 'react-bootstrap';
 import './Footer.css'
-import Logo from '../Components/Images/Logo1.png'
 
 
 const Footer = () => {
   return (
-    <div className="FooterLinks">
+    <div>
 
       <Navbar bg="dark" variant="dark">
         <Container>
-          <Nav fill justify className="me-auto">
-            <img
-              src={Logo}
-
-              alt="countyLogo"
-            />   
-            <Nav.Link href="/">Montery County Portal</Nav.Link>
-            <Nav.Link href="/DigCard">Digital Vaccine Card</Nav.Link>
-            <Nav.Link href="/selfcheck">Self Check In</Nav.Link>
-            <Nav.Link href="/countysites">Monterey County Recources</Nav.Link>
+          <Nav justify className="flex-column">  
+          
+              <Nav.Link href="/">Portal Home</Nav.Link>
+              <Nav.Link href="/DigCard">Digital Vaccine Card</Nav.Link>
+              <Nav.Link href="/selfcheck">Self Check In</Nav.Link>
+              <Nav.Link href="/countysites">Resources</Nav.Link>
+            
+          
+            <Nav.Link href="/">Portal Home</Nav.Link>
+              <Nav.Link href="/DigCard">Digital Vaccine Card</Nav.Link>
+              <Nav.Link href="/selfcheck">Self Check In</Nav.Link>
+              <Nav.Link href="/countysites">Resources</Nav.Link>
           </Nav>
+
         </Container>
       </Navbar>
       
