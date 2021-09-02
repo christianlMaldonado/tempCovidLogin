@@ -17,11 +17,11 @@
 }
 
 .CarouselColor {
-  color: grey;
+  color: teal;
 }
 
-.carousel {
-  max-width:900px;
+/* .carousel {
+  max-width:50px;
   max-height:500px;
-  margin: auto;
-}
+ 
+} */
