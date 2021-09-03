@@ -7,8 +7,8 @@ function DigCard() {
   return (
     <div className="DigCardBody">
       <img src={Logo} alt="countyLogo"/>
-      <h1> Youre Official Digital Vaccine Card </h1>
-      <p> Use the link below to access your offical California Government Covid Vaccine Card.</p>
+      <h1> Your Official Digital Vaccine Card </h1>
+      <p> Use The Link Below To Access A Digital Copy Of Your Offical California Government Covid Vaccine Card.</p>
       <Button href="https://myvaccinerecord.cdph.ca.gov/" variant="dark">Click Here To Access Your Offical Digtal Vaccine Card</Button>
     </div>
   );

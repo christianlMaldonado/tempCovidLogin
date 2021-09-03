@@ -14,6 +14,7 @@ function NavMenu() {
                             width="50"
                             height="50"
                             alt="countyLogo"
+                            padding="5" 
                              />    
                         Monterey County Portal 
                     </Navbar.Brand>
