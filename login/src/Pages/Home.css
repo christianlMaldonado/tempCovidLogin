@@ -16,12 +16,11 @@
   padding: 20px;
 }
 
-.CarouselColor {
-  color: teal;
-}
-
-/* .carousel {
-  max-width:50px;
-  max-height:500px;
- 
+/* .CarouselColor {
+  color: ;
 } */
+
+.carousel {
+  width:auto;
+  height:auto;
+}
