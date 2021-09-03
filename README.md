@@ -15,12 +15,11 @@ Users should be launched into the site automatically and use the hamburger menu 
 
 ## MVP and future checklist for this application
 MVP - Minimum Viable Project 
-+ Authentication to login
 + <strike> Front end to navigate pages </strike> 
-+ Submission form (Needs Update) 
-+ Save submission forms into a proper location
++ <strike>Submission form (Needs Update) </strike>
++ Authentication to login ( Using OAuthentication)
++ Save submission forms onto a backend ( Cloud Service )
 
 Future additions
 + Include Dark theme
 + Include Chatbot Assisstant
-+ Add to a cloud database -(Orcle or Azure)
